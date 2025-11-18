@@ -1,0 +1,4 @@
+# CRON JOB EXAMPLE
+# Run log analyzer daily at 1 AM
+
+0 1 * * * /path/to/unix.sh /path/to/logs/*.log -- ERROR INFO WARN >> cron_output.log 2>&1
