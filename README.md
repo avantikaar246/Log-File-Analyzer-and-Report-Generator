@@ -43,18 +43,22 @@ chmod +x src/unix.sh
 ```
 Log-File-Analyzer-and-Report-Generator/
 │── src/
-│   └── unix.sh
+│   └── LogAnalyzerReportGenerator.sh
 │── sample_logs/
+│   ├── log1.log
+│   ├── log2.log
 │── reports/
+│   └── .gitkeep
 │── docs/
 │   ├── USAGE_GUIDE.md
 │   ├── LIMITATIONS.md
 │   ├── IMPROVEMENTS.md
 │── cron/
-│   └── cron_job_example.txt
+│   └── cronjob_example.txt
 │── README.md
 │── LICENSE
 │── .gitignore
+
 ```
 
 ---
